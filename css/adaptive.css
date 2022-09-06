@@ -1,0 +1,275 @@
+@media (min-width: 2000px) {
+    .second-section {
+        justify-items: normal;
+        margin-left: -7em;
+    }
+    #outer-slider{
+        width: 78% !important;
+        padding: 2em 1em;
+    }
+
+    .info-group {
+        width: 90%;
+        margin-left: 5em;
+    }
+
+    .extra {
+        height: 16%;
+        width: 95%;
+
+    }
+    .extra2 {
+     
+
+    }
+
+    .block-7-img {
+        width: auto;
+    }
+    .sec-content-group {
+        width: 85%;
+        height: 402px;
+    }
+    .ad-sec-content-group {
+        width: 85%;
+    }
+    .menu {
+        gap: 50px;
+    }
+    .seper {
+        gap: 50px;
+    }
+    .ad-block-img {
+        width: 80%;
+        height: 80%;
+    }
+    .svf{
+     width: 85%;   
+    }
+}
+
+@media (max-width: 1999px) {
+    #outer-slider{
+        width: 83% !important;
+        padding: 2em 1em;
+    }
+    
+}
+
+
+
+@media (max-width: 1634px){
+    .sec-content-group2 {
+        font-size: 40px;
+        height: 300px;
+    }
+    .sec-content-group p {
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 1146px){
+    .logo{
+        position: initial;
+    }
+    header{
+        flex-direction: column;
+        align-items: center;
+        height: 110px;
+        gap: 5px;
+    }
+}
+
+@media (max-width: 1402px){
+    .sec-content-group2 {
+        font-size: 27px;
+        height: 250px;
+    }
+    .sec-content-group p {
+        font-size: 15px;
+    }
+}
+@media (max-width: 1300px){
+    main {
+        grid-template-columns: 65% 34%;
+    }
+}
+
+@media (max-width: 991px){
+    .sec-content-group2 {
+        font-size: 20px;
+        height: 200px;
+    }
+    .splide__slide_span {
+        font-size: 12px;
+    }
+    .ad-sec-content-group {
+        width: 100%;
+        
+        padding-bottom: 1em;
+        margin: 0 0 1em 0;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    main {
+        grid-template-columns: 60% 40%;
+    }
+    .block-5-img {
+        width: 20%;
+
+    }
+    
+    #outer-slider{
+        width: 97% !important;
+        padding: 2em 1em;
+    }
+    .extra {
+        height: 60px;
+    }
+    .extra2 {
+        height: max-content;
+    }
+}
+
+@media (max-width: 904px) {
+ .seper {
+     display: block;
+     
+ }
+ .menu {
+    justify-content: space-between;
+ }
+ .menu-btn {
+    margin: 0.5em 1em;
+    padding: 0.3em 0.5em;
+    min-width: 100px;
+
+ }
+ .menu-btn a {
+     font-size: 13px;
+ }
+ header{
+     height: 150px;
+     position: relative;
+ }
+ .second-section{
+     margin-top: 40px;
+     padding: 0 1em 0 0;
+ }
+ .first-section{
+     margin-top: 40px;
+ }
+
+}
+
+@media (max-width: 490px){
+    .block-5-img {
+        width: 15%;
+    }
+    .full-version {
+        display: flex;
+    justify-content: center;
+    }
+    .sec-agr-group {
+        height: auto;
+    }
+    header {
+        position: relative;
+    }
+    #outer-slider {
+        width: 66% !important;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    .seper{
+        flex-direction: column;
+        margin: 1em -0.8em;
+    }
+    .menu-btn{
+        margin: 0.2em 1em;
+    }
+    header{
+        height: 170px;
+    }
+    .logo{
+        margin-top: 10px;
+        height: 35px;
+    }
+    .b-popup-content{
+        max-width: 80% !important;
+    }
+    .second-section{
+        margin-top: 0;
+        grid-template-rows: .66fr .55fr .60fr .40fr .66fr;
+        padding: 0 20px !important;
+    }
+    .sec-content-group-color{
+        margin: 2em 0;
+    }
+    .sec-content-group-color-2{
+        margin: 1em 0;
+    }
+    .ex-popup-content{
+        margin: 5em auto 0 auto !important;
+        width: 90% !important;
+    }
+    .sec-content-group-text{
+        font-size: 42px;
+    }
+    .first-section{
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 430px) {
+    header {
+        position: relative;
+    }
+    .sec-content-group-text {
+        top: 35%;
+    }
+    .block-3 {
+        margin-top: 1.5em;
+        width: 75%;
+        height: 75%;
+    }
+    .ad-sec-content-group {
+        height: 321px;
+    }
+    header {
+        height: 170px;
+    }
+    .menu-btn {
+        min-width: 100px;
+    }
+    .menu-btn a {
+        font-size: 13px;
+    }
+    #outer-slider {
+        width: 75% !important;
+    }
+}
+
+@media (max-width: 390px) {
+    #outer-slider {
+        width: 83% !important;
+    }
+    .menu{ 
+        width: auto;
+    }
+}
+@media (max-width: 370px) {
+    #outer-slider {
+        width: 86% !important;
+    }
+}
+
+@media (max-width: 340px) {
+    #outer-slider {
+        width: 93% !important;
+    }
+}
